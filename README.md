@@ -1,8 +1,12 @@
 Arduino IR Temp-Controlled Fan
+
+
 This is a fan controller I built using an Arduino. It has two modes: Auto (temperature-based) and Manual (IR remote control).
 It reads the room temperature using a thermistor. As it gets hotter, the fan speeds up. As for the manual version, you can use an IR remote to change speeds, reverse direction, or shut it off completely.
 
 Features
+
+
 Auto Mode: Fan kicks in at 24.5°C. As it gets hotter (up to 35°C), the fan spins faster.
 Manual Override: Use a remote to force the fan on, change speed (PWM), or swap motor direction.
 Visuals: I added a 74HC595 shift register to drive an LED bar graph. It lights up more LEDs as the fan speed increases.
