@@ -13,6 +13,7 @@ Visuals: I added a 74HC595 shift register to drive an LED bar graph. It lights u
 Hysteresis: There's a 1-degree buffer so the fan doesn't annoyingly toggle on and off if the temperature is hovering right around the threshold.
 
 Hardware List
+
 Arduino (Uno)
 DC Motor + Driver 
 IR Receiver + Remote
@@ -20,6 +21,7 @@ NTC Thermistor (10k) + 10k Resistor
 74HC595 Shift Register + 8 LEDs
 
 Pinout
+
 Motor & Sensors
 | Pin  | Component |
 | :--- | :--- |
